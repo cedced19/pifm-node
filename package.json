@@ -1,0 +1,38 @@
+{
+  "name": "pifm-node",
+  "version": "0.0.0",
+  "description": "A Node.js software to play musics on a FM radio in command line.",
+  "main": "pifm-node",
+  "dependencies": {
+    "colors": "^1.0.3",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cedced19/pifm-node"
+  },
+  "keywords": [
+    "musics",
+    "music",
+    "cli",
+    "basic",
+    "center",
+    "random",
+    "fm"
+  ],
+  "bugs": {
+    "url": "https://github.com/cedced19/pifm-node/issues"
+  },
+  "homepage": "https://github.com/cedced19/pifm-node",
+  "devDependencies": {},
+  "author": {
+    "name": "Cédric",
+    "email": "cedced19@gmail.com",
+    "url": "https://github.com/cedced19"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://cedced19.github.io/license/"
+    }
+  ]
+}
