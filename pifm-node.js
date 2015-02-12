@@ -29,5 +29,15 @@ var random = function () {
     }
 };
 
-console.log(colors.cyan('['+ time() + ']') + ' Now this will broadcast on ' +  colors.green(config.freq) + ' MHz and the rate is ' + colors.green(config.rate) + ' Hz.');
-random();
+var start = function () {
+    console.log(colors.cyan('['+ time() + ']') + ' Now this will broadcast on ' +  colors.green(config.freq) + ' MHz and the rate is ' + colors.green(config.rate) + ' Hz.');
+    var log = ' This musics will be played ';
+    for (var zik in list) {
+        log += '\n- '
+        log += list[zik].name;
+    }
+    console.log(colors.cyan('['+ time() + ']') + log)
+    random();
+}
+
+start();

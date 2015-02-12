@@ -2,9 +2,9 @@
   "name": "pifm-node",
   "version": "0.0.0",
   "description": "A Node.js software to play musics on a FM radio in command line.",
-  "main": "pifm-node",
+  "main": "pifm-node.js",
   "dependencies": {
-    "colors": "^1.0.3",
+    "colors": "^1.0.3"
   },
   "repository": {
     "type": "git",
