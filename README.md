@@ -15,7 +15,7 @@ I am __not__ at all responsible for your actions.
 
 ```bash
 $ git clone --depth=1 --branch=master https://github.com/cedced19/pifm-node 
-$ cd ./pifm-node/dist/
+$ cd ./pifm-node/
 $ npm install
 $ chmod 777 pifm
 $ node pifm-node.js
